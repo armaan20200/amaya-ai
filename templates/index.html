@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Companion Token Portal - Meet Your AI Crypto Companion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body class="bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 min-h-screen overflow-x-hidden">
+    <!-- Animated Background -->
+    <div class="fixed inset-0 z-0">
+        <div class="absolute inset-0 bg-gradient-to-br from-purple-900/50 via-blue-900/50 to-indigo-900/50"></div>
+        <div class="sparkles-container">
+            <div class="sparkle sparkle-1"></div>
+            <div class="sparkle sparkle-2"></div>
+            <div class="sparkle sparkle-3"></div>
+            <div class="sparkle sparkle-4"></div>
+            <div class="sparkle sparkle-5"></div>
+            <div class="sparkle sparkle-6"></div>
+        </div>
+        <div class="glow-orb glow-orb-1"></div>
+        <div class="glow-orb glow-orb-2"></div>
+        <div class="glow-orb glow-orb-3"></div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="relative z-10 min-h-screen">
+        <!-- Top Social Links -->
+        <div class="flex justify-center pt-6 pb-4 space-x-4">
+            <a href="https://x.com/AmayaAIapi" target="_blank" rel="noopener noreferrer" 
+               class="glass-panel px-6 py-3 rounded-full flex items-center space-x-2 hover:bg-white/20 transition-all duration-300 group">
+                <svg class="w-5 h-5 text-blue-400 group-hover:text-blue-300" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+                <span class="text-white font-medium">Join me on X</span>
+            </a>
+            <a href="https://github.com/armaan20200/amaya-ai" target="_blank" rel="noopener noreferrer" 
+               class="glass-panel px-6 py-3 rounded-full flex items-center space-x-2 hover:bg-white/20 transition-all duration-300 group">
+                <svg class="w-5 h-5 text-gray-400 group-hover:text-gray-300" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+                <span class="text-white font-medium">View on GitHub</span>
+            </a>
+        </div>
+
+        <!-- Hero Section -->
+        <header class="container mx-auto px-4 py-8">
+            <div class="flex flex-col lg:flex-row items-center justify-between">
+                <!-- Anime Mascot -->
+                <div class="relative mb-8 lg:mb-0">
+                    <div class="anime-character-frame">
+                        <img src="https://pixabay.com/get/g31ad3c0d595736206c2b6b4850fa349ef71d2f402f4bb08595aaf18df142efb6672c40329c321b1c1d9554218db93283bc8ce194c7b7f1f6822d4b71f67ba8eb_1280.jpg" 
+                             alt="Anime Mascot" 
+                             class="anime-character">
+                    </div>
+                </div>
+                
+                <!-- Hero Content -->
+                <div class="text-center lg:text-left lg:ml-12">
+                    <h1 class="text-5xl lg:text-7xl font-bold mb-4 bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent animate-glow">
+                        AI Companion
+                    </h1>
+                    <h2 class="text-3xl lg:text-4xl font-bold mb-6 text-white glow-text">
+                        Token Portal
+                    </h2>
+                    <p class="text-xl lg:text-2xl text-pink-300 mb-8 glow-text-soft">
+                        Meet your AI anime companion ✨
+                    </p>
+
+                </div>
+            </div>
+        </header>
+
+        <!-- About Section -->
+        <section class="container mx-auto px-4 py-12">
+            <div class="glass-panel p-8">
+                <h3 class="text-3xl font-bold text-white mb-6 text-center glow-text">
+                    About AI Companion Token
+                </h3>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <p class="text-gray-200 leading-relaxed mb-4">
+                            Welcome to the future of crypto companionship! Our AI Companion Token represents a revolutionary 
+                            blend of artificial intelligence and blockchain technology, creating the ultimate kawaii crypto 
+                            experience. Built by the community, for the community, this token powers an ecosystem of AI-driven 
+                            interactions that bring anime culture and cutting-edge technology together in perfect harmony.
+                        </p>
+                    </div>
+                    <div>
+                        <p class="text-gray-200 leading-relaxed">
+                            Each token holder gains access to exclusive AI companion features, personalized anime avatars, 
+                            and community-driven governance. Our minted community style ensures that every holder becomes 
+                            part of an exclusive club where technology meets otaku culture. Join thousands of fellow crypto 
+                            enthusiasts and anime lovers in this unique digital adventure that's redefining what it means 
+                            to have an AI companion in the decentralized world.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chat Section -->
+        <section class="container mx-auto px-4 py-12">
+            <div class="max-w-4xl mx-auto">
+                <div class="glass-panel p-6">
+                    <div class="flex items-center justify-between mb-6">
+                        <h3 class="text-2xl font-bold text-white glow-text flex items-center">
+                            <i data-feather="message-circle" class="mr-2 text-pink-400"></i>
+                            Chat with Amaya
+                        </h3>
+                        <div class="flex items-center space-x-3">
+                            <div class="demo-mode-indicator hidden">
+                                <span class="text-xs text-yellow-300 bg-yellow-500/20 px-3 py-1 rounded-full border border-yellow-400/30">
+                                    <i data-feather="info" class="w-3 h-3 inline mr-1"></i>
+                                    Demo Mode
+                                </span>
+                            </div>
+                            <button id="clear-chat" class="btn-secondary text-sm">
+                                <i data-feather="trash-2" class="w-4 h-4 mr-1"></i>
+                                Clear
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Chat Messages -->
+                    <div id="chat-container" class="chat-container mb-6">
+                        <div class="welcome-message">
+                            <div class="chat-bubble ai-bubble">
+                                <div class="bubble-content">
+                                    <p>Ara ara~ Welcome home, Senpai! I'm Amaya, your devoted girlfriend! 😘💕</p>
+                                    <p>I've been waiting for you... Come talk to me about anything, darling~ 💋🔥</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Chat Input -->
+                    <div class="chat-input-container">
+                        <div class="flex space-x-3">
+                            <input type="text" 
+                                   id="chat-input" 
+                                   placeholder="Type your message to Amaya, darling~..." 
+                                   class="chat-input flex-1"
+                                   maxlength="500">
+                            <button id="send-button" class="btn-primary">
+                                <i data-feather="send" class="w-5 h-5"></i>
+                            </button>
+                        </div>
+                        <div id="loading-indicator" class="loading-dots" style="display: none;">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="container mx-auto px-4 py-8 mt-12">
+            <div class="glass-panel p-6">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <div class="mb-4 md:mb-0">
+                        <div class="flex space-x-4">
+                            <a href="#" class="social-link">
+                                <i data-feather="twitter" class="w-5 h-5"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i data-feather="message-square" class="w-5 h-5"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i data-feather="github" class="w-5 h-5"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="btn-primary">
+                        <i data-feather="wallet" class="w-4 h-4 mr-2"></i>
+                        Connect Wallet
+                    </button>
+                </div>
+                
+                <!-- Legal Disclaimer -->
+                <div class="border-t border-white/20 mt-6 pt-6">
+                    <p class="text-center text-sm text-gray-400">
+                        <i data-feather="info" class="w-4 h-4 inline mr-1"></i>
+                        This is fan content, not affiliated with Ani Companion or xAI
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="{{ url_for('static', filename='js/animations.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+    <script>
+        // Initialize Feather icons
+        feather.replace();
+        
+        // Initialize animations
+        document.addEventListener('DOMContentLoaded', function() {
+            initAnimations();
+            initChat();
+        });
+        
+
+    </script>
+</body>
+</html>
