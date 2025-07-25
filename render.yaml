@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: amaya-ai
+    env: python
+    plan: free
+    buildCommand: pip install flask flask-cors openai gunicorn
+    startCommand: gunicorn --bind 0.0.0.0:$PORT --workers 1 main:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.6
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: SESSION_SECRET
+        generateValue: true
+    healthCheckPath: /
